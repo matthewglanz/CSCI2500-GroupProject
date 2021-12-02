@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="untitled3"/>
+		<Option title="CSCI2500-GroupProject"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="untitled3">
-				<Option output="/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/untitled3" prefix_auto="0" extension_auto="0"/>
+			<Target title="CSCI2500-GroupProject">
+				<Option output="/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/CSCI2500-GroupProject" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -51,14 +51,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled3"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSCI2500-GroupProject"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="untitled3/fast">
-				<Option output="/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/untitled3" prefix_auto="0" extension_auto="0"/>
+			<Target title="CSCI2500-GroupProject/fast">
+				<Option output="/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/CSCI2500-GroupProject" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -71,7 +71,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled3/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSCI2500-GroupProject/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -79,7 +79,7 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/main.c">
-			<Option target="untitled3"/>
+			<Option target="CSCI2500-GroupProject"/>
 		</Unit>
 		<Unit filename="/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

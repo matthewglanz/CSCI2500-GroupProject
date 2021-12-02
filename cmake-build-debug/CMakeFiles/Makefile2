@@ -54,16 +54,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/matthewglanz/CLionProjects/untitled3
+CMAKE_SOURCE_DIR = /Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/matthewglanz/CLionProjects/untitled3/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/untitled3.dir/all
+all: CMakeFiles/CSCI2500-GroupProject.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/untitled3.dir/clean
+clean: CMakeFiles/CSCI2500-GroupProject.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled3.dir
+# Target rules for target CMakeFiles/CSCI2500-GroupProject.dir
 
 # All Build rule for target.
-CMakeFiles/untitled3.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matthewglanz/CLionProjects/untitled3/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target untitled3"
-.PHONY : CMakeFiles/untitled3.dir/all
+CMakeFiles/CSCI2500-GroupProject.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSCI2500-GroupProject.dir/build.make CMakeFiles/CSCI2500-GroupProject.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSCI2500-GroupProject.dir/build.make CMakeFiles/CSCI2500-GroupProject.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target CSCI2500-GroupProject"
+.PHONY : CMakeFiles/CSCI2500-GroupProject.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matthewglanz/CLionProjects/untitled3/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/untitled3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matthewglanz/CLionProjects/untitled3/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/untitled3.dir/rule
+CMakeFiles/CSCI2500-GroupProject.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CSCI2500-GroupProject.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CSCI2500-GroupProject.dir/rule
 
 # Convenience name for target.
-untitled3: CMakeFiles/untitled3.dir/rule
-.PHONY : untitled3
+CSCI2500-GroupProject: CMakeFiles/CSCI2500-GroupProject.dir/rule
+.PHONY : CSCI2500-GroupProject
 
 # clean rule for target.
-CMakeFiles/untitled3.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/clean
-.PHONY : CMakeFiles/untitled3.dir/clean
+CMakeFiles/CSCI2500-GroupProject.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSCI2500-GroupProject.dir/build.make CMakeFiles/CSCI2500-GroupProject.dir/clean
+.PHONY : CMakeFiles/CSCI2500-GroupProject.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

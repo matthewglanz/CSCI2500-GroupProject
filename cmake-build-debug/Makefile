@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/matthewglanz/CLionProjects/untitled3
+CMAKE_SOURCE_DIR = /Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/matthewglanz/CLionProjects/untitled3/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matthewglanz/CLionProjects/untitled3/cmake-build-debug/CMakeFiles /Users/matthewglanz/CLionProjects/untitled3/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/CMakeFiles /Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matthewglanz/CLionProjects/untitled3/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matthewglanz/Documents/GitHub/CSCI2500-GroupProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled3
+# Target rules for targets named CSCI2500-GroupProject
 
 # Build rule for target.
-untitled3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled3
-.PHONY : untitled3
+CSCI2500-GroupProject: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CSCI2500-GroupProject
+.PHONY : CSCI2500-GroupProject
 
 # fast build rule for target.
-untitled3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/build
-.PHONY : untitled3/fast
+CSCI2500-GroupProject/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSCI2500-GroupProject.dir/build.make CMakeFiles/CSCI2500-GroupProject.dir/build
+.PHONY : CSCI2500-GroupProject/fast
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSCI2500-GroupProject.dir/build.make CMakeFiles/CSCI2500-GroupProject.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -142,7 +142,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSCI2500-GroupProject.dir/build.make CMakeFiles/CSCI2500-GroupProject.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -150,7 +150,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSCI2500-GroupProject.dir/build.make CMakeFiles/CSCI2500-GroupProject.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... untitled3"
+	@echo "... CSCI2500-GroupProject"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
